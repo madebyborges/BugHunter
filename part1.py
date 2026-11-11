@@ -37,3 +37,33 @@ print("")
 print("=" * 45)
 print("REGISTRO CONCLUÍDO")
 print("=" * 45)
+
+# Edilson: Calcula a quantidade total de testes.
+total_testes = testes_aprovados + testes_reprovados + testes_nao_executados
+
+# Edilson: Calcula a quantidade de testes executados.
+testes_executados = testes_aprovados + testes_reprovados
+
+# Edilson: Calcula as porcentagens dos testes.
+taxa_aprovacao = (testes_aprovados / testes_executados) * 100
+taxa_reprovacao = (testes_reprovados / testes_executados) * 100
+taxa_nao_executados = (testes_nao_executados / total_testes) * 100
+
+# Edilson: Exibe as métricas calculadas no terminal.
+print("")
+print("=" * 45)
+print("MÉTRICAS DA EXECUÇÃO")
+print("=" * 45)
+
+print(f"Total de testes: {total_testes}")
+print(f"Testes executados: {testes_executados}")
+print("")
+print(f"Taxa de aprovação: {taxa_aprovacao}%")
+print(f"Taxa de reprovação: {taxa_reprovacao}%")
+print(f"Taxa de não executados: {taxa_nao_executados}%")
+
+# Edilson: Finaliza a apresentação das métricas.
+print("")
+print("=" * 45)
+print("CÁLCULOS CONCLUÍDOS")
+print("=" * 45)
