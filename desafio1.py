@@ -29,3 +29,22 @@ print(" ")
 print("=" * 45)
 print("INICIALIZAÇÃO CONCLUÍDA")
 print("=" * 45)
+
+# Gabriel: Apresenta os resultados dos testes executados.
+
+print("")
+print("=" * 45)
+print("RESULTADOS REGISTRADOS")
+print("=" * 45)
+print("")
+
+print(f"Testes aprovados: {testes_aprovados}")
+print(f"Testes reprovados: {testes_reprovados}")
+print(f"Testes não executados: {testes_nao_executados}")
+
+# Gabriel: Finaliza o registro dos resultados.
+
+print("")
+print("=" * 45)
+print("REGISTRO CONCLUÍDO")
+print("=" * 45)
