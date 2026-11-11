@@ -19,3 +19,19 @@ print("")
 print("=" * 45)
 print("inicialização concluido")
 print("=" * 45)
+
+# Edilson: Apresenta os resultados registrados dos testes.
+
+print("")
+print("=" * 45)
+print("RESULTADOS REGISTRADOS")
+print("=" * 45)
+
+print(f"Testes aprovados: {testes_aprovados}")
+print(f"Testes reprovados: {testes_reprovados}")
+print(f"Testes não executados: {testes_nao_executados}")
+
+print("")
+print("=" * 45)
+print("REGISTRO CONCLUÍDO")
+print("=" * 45)
